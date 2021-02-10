@@ -128,18 +128,18 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
             𝐑𝐮𝐥𝐞𝐬 - 𝐒𝐢𝐦𝐩𝐥𝐞
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 ●⧐ *Spam : Auto Block!*
-●⧐ *Expect a 5 seconds delay while usage!!*
+●⧐ *Expect a 5 seconds delay !!*
 ●⧐ *Bug / Error Please Cht with Owner!*
-●⧐ *To Make Sure The Bot Is Off Or On*
+●⧐ *To Make Sure The Bot Is Off / On:*
 ●⧐ *Type $ {prefix} bot*
 ●⧐ *Please be patient with the bugs!*
-●⧐ *Use the Bot wiselyt!*
+●⧐ *Use the Bot wisely!*
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 
 ╭══─⊱ ❰ *MAKER MENU* ❱ ⊰─══➤
 ╠☞ *${prefix}sticker*
-╠☞ *${prefix}ttp*
-╠☞ *${prefix}qrcode*
+╠☞ *${prefix}toimg*
+╠☞ *${prefix}map [place]*
 ║
 ╠══─⊱ ❰ *FUN MENU* ❱ ⊰─════➤
 ╠☞ *${prefix}mining*
@@ -152,6 +152,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}pinterest*
 ╠☞ *${prefix}ytmp4*
 ╠☞ *${prefix}ocr*
+╠☞ *${prefix}ssweb*
 ║
 ╠══─⊱ ❰ *LIMIT MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}limit*
@@ -198,7 +199,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 }
 
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
-	return`
+	return`while
 *「 GREETINGS 」*
 ┏⊱ *Name* : ${pushname}
 ┣⊱ *Number* : wa.me/${sender.split("@")[0]}
