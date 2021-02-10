@@ -482,11 +482,11 @@ client.on('group-participants-update', async (anu) => {
 				payout = body.slice(10)
 				const koinPerlimit = 1000
 				const total = koinPerlimit * payout
-				if ( checkATMuser(sender) <= total) return reply(`sorry your money is not enough. please collect and buy later`)
+				if ( checkATMuser(sender) <= total) return reply(`sorry your credit is not enough. please collect and buy later`)
 				if ( checkATMuser(sender) >= total ) {
 					confirmATM(sender, total)
 					bayarLimit(sender, payout)
-					await reply(`*「 SUCCESSFUL PAYMENT 」*\n\n*sender* : Admin\n*receiver* : ${pushname}\n*nominal purchase* : ${payout} \n *limit price* : ${koinPerlimit}/limit\n *the rest of your money* : ${checkATMuser(sender)}\n\nsuccessful process with payment number\n${createSerial(15)}`)
+					await reply(`*「 SUCCESSFUL PAYMENT 」*\n\n*sender* : Admin\n*receiver* : ${pushname}\n*nominal purchase* : ${payout} \n *limit price* : ${koinPerlimit}/limit\n *the rest of your credits* : ${checkATMuser(sender)}\n\nsuccessful process with payment number\n${createSerial(15)}`)
 				} 
 				break
 				case 'limit':
