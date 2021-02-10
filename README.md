@@ -16,7 +16,7 @@
 > apt-get upgrade
 > pkg install git
 > pkg install bash
-> git clone https://github.com/MrK4ZUT0/botwa
+> git clone https://github.com/Vai838/botwa1
 > cd botwa
 > bash install.sh
 > node index.js
