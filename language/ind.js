@@ -148,6 +148,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ║
 ╠══─⊱ ❰ *MEDIA MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}quotes*
+╠☞ *${prefix}quotemaker*
 ╠☞ *${prefix}brainly*
 ╠☞ *${prefix}pinterest*
 ╠☞ *${prefix}ytmp4*
@@ -193,6 +194,9 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}setppbot*
 ║
 ╠══─⊱ ❰ *IRA-BOT* ❱ ⊰─══➤
+╠☞ *${prefix}donate* [1/0]
+╠☞ *${prefix}info*
+╠☞ *${prefix}owner*
 ║
 ╰════─⊱ ⸨ *Vai838* ⸩ ⊰─════╯
 `
